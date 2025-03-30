@@ -10,7 +10,7 @@ const stripe=new Stripe(process.env.STRIPE_SECRET_KEY); // setting up of Stripe 
 
 const placeOrder=async (req,res)=>{
 
-    const frontend_url="http://localhost:5173";
+    const frontend_url='https://food-dell-application-frontend.onrender.com/';
     try {
         //getting new order from the below code
         const newOrder=new orderModel({
