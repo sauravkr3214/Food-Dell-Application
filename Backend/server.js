@@ -27,7 +27,7 @@ connectDB();
 //api endpoints
 
 app.use("/api/food",FoodRouter)
-app.use("/images",express.static('uploads')) //code to uploaded images to show in frontend
+app.use("/images",express.static('Uploads')) //code to uploaded images to show in frontend
 app.use("/api/user",userRouter)
 app.use("/api/cart",CartRouter) //endpoints to connect cart backend to frontend 
 app.use("/api/order",orderRouter)
