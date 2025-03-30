@@ -67,6 +67,8 @@ import add_icon from './add_icon.png'
 import basket_icon from './basket_icon.png'
 import profile_image from './profile_image.png'
 
+export const url = 'https://food-dell-application-backend.onrender.com'
+
 export const assets = {
     logo,
     add_icon,
